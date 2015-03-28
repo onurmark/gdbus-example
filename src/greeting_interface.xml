@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+  <interface name="net.developerstory.gdbus.greeting">
+    <method name="hello">
+      <arg name="greeting" direction="in" type="s"/>
+    </method>
+
+    <signal name="Notification">
+      <arg name="icon_blob" type="ay"/>
+      <arg name="height" type="i"/>
+      <arg name="messages" type="as"/>
+    </signal>
+
+    <property name="Verbose" type="b" access="readwrite"/>
+  </interface>
+</node>

@@ -13,6 +13,6 @@ AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_FILES([Makefile src/Makefile tests/Makefile])
 
 PKG_CHECK_MODULES([GLIB], [glib-2.0 >= 2.40.2])
-PKG_CHECK_MODULES([GIO], [gio-2.0 >= 2.40.2])
+PKG_CHECK_MODULES([GIO], [gio-unix-2.0 >= 2.40.2])
 
 AC_OUTPUT
