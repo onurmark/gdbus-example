@@ -1,7 +1,7 @@
 AM_CFLAGS = $(GLIB_CFLAGS) $(GIO_CFLAGS)
 
 BUILT_SOURCES = greeting.c greeting.h
-dist_noinst = greeting_interface.xml
+dist_noinst_DATA = greeting_interface.xml
 
 bin_PROGRAMS = gdbus_server gdbus_client
 
